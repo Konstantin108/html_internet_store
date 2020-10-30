@@ -1,0 +1,447 @@
+body {
+    background: #f8f8f8;
+}
+
+
+/*Меню, главная, каталог, header, footer*/
+
+
+.menu li ul {
+    display: none;
+
+}
+
+.menu li:hover ul {
+    float: left;
+    margin-top: 36px;
+    display: block;
+
+}
+
+.menu li ul li {
+    display: block;
+    height: 30px;
+    width: 350px;
+    margin-right: -430px;
+    margin-left: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.menu li ul li:hover a {
+    color: #f57c00;
+}
+
+.menu li ul li:hover {
+    border: 2px solid #f57c00;
+}
+
+.menu li ul li:active a {
+    text-shadow: 0 0 10px #c00;
+    -webkit-text-shadow: 0 0 10px #c00;
+    text-shadow: 0 0 10px #c00;
+}
+
+.menu li ul li a {
+    color: #005662;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.menu {
+    list-style-type: none;
+    margin-top: 90px;
+    float: right;
+
+
+}
+
+.menu li {
+    display: inline;
+    line-height: 40px;
+    padding: 1px 30px;
+
+}
+
+.menu li a {
+    display: inline-block;
+}
+
+.menu a {
+    color: #005662;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+a {
+    text-decoration: none;
+    color: #005662;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: #f57c00;
+}
+
+a:active {
+    text-shadow: 0 0 10px #c00;
+    -webkit-text-shadow: 0 0 10px #c00;
+    text-shadow: 0 0 10px #c00;
+}
+
+#logo {
+    outline: 3px solid black;
+    outline-style: inset;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+#mainTitle {
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#mainParagraph {
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    color: #005662;
+}
+
+#saleParagraph {
+    text-align: center;
+}
+
+#saleParagraph a {
+    color: #00695c;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+#saleParagraph a:hover {
+    color: #f57c00;
+}
+
+#saleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1024px;
+    background: none;
+    margin: 0 auto;
+}
+
+.header {
+    height: 270px;
+    background-image: url(img/vectorBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.footer {
+    height: 100px;
+    background: #00363a;
+    text-align: right;
+    color: aliceblue;
+    clear: both;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+#footerText {
+    margin-right: 100px;
+    margin-top: 35px;
+}
+
+.product {
+    background: #e1f5fe;
+    width: 460px;
+    float: left;
+    margin-right: 50px
+}
+
+
+/*Страница товара*/
+
+
+.description {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.brief {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.first:first-letter {
+    font-size: 30px;
+    font-family: cursive;
+    color: #a3b0c9;
+}
+
+.imageBottom {
+    outline: 4px solid #f57f17;
+    outline-style: inset;
+    margin-left: 4px;
+
+}
+
+.imageBottomCatalog {
+    outline: 4px solid #f57f17;
+    outline-style: inset;
+    margin-left: 4px;
+}
+
+.outline_none {
+    outline: none;
+}
+
+.price:hover {
+    text-decoration-line: underline;
+}
+
+.catalogImage {
+    width: 220px;
+    height: auto;
+}
+
+.price {
+    display: inline-block;
+}
+
+.tableStyle {
+    border: 1px solid black;
+    width: 900px;
+    height: 350px;
+    border-collapse: collapse;
+}
+
+.tableStyle td {
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.dividingLine {
+    background: #1e88e5;
+}
+
+.firstLine {
+    text-align: center;
+    height: 60px;
+}
+
+.one,
+.two {
+    background: #ffff00;
+}
+
+.grayLine {
+    background: #cfd8dc;
+}
+
+.productImage {
+    float: left;
+}
+
+.divDescription {
+    clear: both;
+}
+
+.divBriefFirst {
+    margin-left: 320px;
+}
+
+.buyButton {
+    float: left;
+    display: block;
+    height: 30px;
+    width: 160px;
+    text-align: center;
+    background: #ffd600;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: white;
+    border: 2px solid #768fff;
+}
+
+.buyButton:hover {
+    color: #f57c00;
+    border: 2px solid #f57c00;
+}
+
+.buyButton:active {
+    text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    box-shadow: 0 0 10px #c00;
+    -webkit-box-shadow: 0 0 10px #c00;
+    box-shadow: 0 0 10px #c00;
+}
+
+
+/*Страница контакты*/
+
+
+.formSize input[type="text"] {
+    color: black;
+    height: 25px;
+    width: 188px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: italic;
+    font-family: cursive;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+
+#E-mail {
+    border: 3px solid #f57c00;
+}
+
+#E-mail:focus {
+    color: darkorchid;
+    border: 3px solid darkorchid;
+    background: #67daff;
+}
+
+.formSize textArea {
+    color: black;
+    font-size: 16px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 400;
+    width: 406px;
+    resize: none;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#writeUs {
+    border: 10px solid #01579b;
+    padding: 30px;
+    width: 420px;
+}
+
+#writeUs h1 {
+    text-align: center
+}
+
+
+/*Кнопка отправить*/
+
+
+.formSize input[type="submit"] {
+    height: 45px;
+    width: 110px;
+    background: #00796b;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid #004d40;
+    cursor: pointer;
+    outline: none;
+}
+
+.formSize input[type="submit"]:hover {
+    border-radius: 10px;
+    border-bottom: 3px solid #00897b;
+    background: #009688;
+    cursor: pointer;
+    outline: none;
+}
+
+.formSize input[type="submit"]:active {
+    border-radius: 10px;
+    border-bottom: none;
+    background: #4db6ac;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+/*Кнопка отменить*/
+
+
+.formSize input[type="reset"] {
+    height: 45px;
+    width: 110px;
+    background: #f57c00;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid #e65100;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    outline: none;
+}
+
+.formSize input[type="reset"]:hover {
+    border-radius: 10px;
+    border-bottom: 3px solid #ff9800;
+    background: #ffa726;
+    cursor: pointer;
+    outline: none;
+}
+
+.formSize input[type="reset"]:active {
+    border-radius: 10px;
+    border-bottom: none;
+    background: #ffb74d;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+
+
+
+
